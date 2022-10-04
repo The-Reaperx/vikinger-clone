@@ -1,0 +1,60 @@
+.layout-container {
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: 80px auto;
+  grid-template-areas:
+    "topbar topbar"
+    "sidebar content";
+
+  background-color: #f3f3f3;
+
+  .layout-content {
+    grid-area: content;
+    padding: 32px 0px 100px;
+    margin: 0 auto;
+  }
+}
+
+.slider {
+  grid-area: menu;
+  width: 1135px;
+  margin: 30px auto 30px auto;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgb(94 92 154 / 6%);
+
+  h3 {
+    text-align: center;
+    color: $color-accent;
+    font-size: 20px;
+    position: relative;
+    h2 {
+      font-size: 20px;
+      position: absolute;
+      left: 60px;
+      opacity: 0;
+    }
+
+    i,
+    h2 {
+      transition: all 400ms ease-in-out;
+    }
+    &:hover {
+      cursor: pointer;
+      i {
+        color: black;
+        opacity: 0;
+      }
+      h2 {
+        color: $color-accent;
+        opacity: 1;
+      }
+    }
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: $color-primary;
+  }
+}

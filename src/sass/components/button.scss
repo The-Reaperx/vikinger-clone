@@ -1,0 +1,30 @@
+.btn {
+  width: 100%;
+  color: white;
+  font-family: rajdhani;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 7px;
+  height: 48px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+
+  &.btn-primary {
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: $color-accent;
+      transition: ease-in-out 100ms;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: $color-light;
+
+    &:hover {
+      background-color: $color-secondary;
+      transition: ease-in-out 100ms;
+    }
+  }
+}

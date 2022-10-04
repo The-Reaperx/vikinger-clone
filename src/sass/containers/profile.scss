@@ -1,0 +1,375 @@
+.profile {
+  display: grid;
+  grid-template-areas:
+    "hero hero hero"
+    "menu menu menu"
+    "info1 info2 info3";
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 1184px;
+}
+
+.hero-container {
+  width: 1184px;
+
+  .hero-background {
+    width: 100%;
+    background-image: url(https://odindesignthemes.com/vikinger/img/cover/01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+
+  .hero-info {
+    height: 126px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .hero-buttons {
+      width: 376px;
+      position: absolute;
+      left: 775px;
+      bottom: 115px;
+      display: flex;
+
+      .btn:first-of-type {
+        margin-right: 16px;
+      }
+    }
+
+    .hero-info-left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba($color: #2c2c2c, $alpha: 1);
+
+      .user-stat {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px;
+      }
+      .user-stat-text {
+        font-weight: 700;
+        font-size: 22px;
+        font-family: rajdhani;
+      }
+      .user-stat-title {
+        padding: 8px 0px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: Rajdhani;
+      }
+      img {
+        width: 24px;
+        height: 15px;
+        margin-bottom: 5px;
+      }
+      div:first-of-type {
+        margin-left: 30px;
+      }
+      div:last-of-type {
+        margin-right: 30px;
+      }
+    }
+    .hero-info-right {
+      display: flex;
+      padding: 30px;
+    }
+    .icon-container {
+      margin: 8px;
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 8px;
+
+      &:hover {
+        transform: translateY(-10px);
+        transition: ease-in-out 200ms;
+        cursor: pointer;
+      }
+      i {
+        color: white;
+      }
+    }
+    .hero-info-user {
+      color: rgba($color: #2c2c2c, $alpha: 1);
+      width: 200px;
+      height: 225px;
+      background-color: none;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50px);
+      text-align: center;
+      h1 {
+        font-family: rajdhani;
+        font-weight: 900;
+        font-size: 25px;
+        margin-bottom: 8px;
+      }
+      p {
+        font-family: rajdhani;
+        font-weight: 700;
+        font-size: 12px;
+      }
+      h1,
+      p {
+        transform: translateY(138px);
+      }
+
+      .avatar {
+        transform: translateY(-65px);
+      }
+
+      .user-avatar-holder {
+        background: $color-white;
+        width: calc(500px / 3);
+        height: calc(500px / 3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        clip-path: polygon(
+          47.5% 5.66987%,
+          48.2899% 5.30154%,
+          49.13176% 5.07596%,
+          50% 5%,
+          50.86824% 5.07596%,
+          51.7101% 5.30154%,
+          52.5% 5.66987%,
+          87.14102% 25.66987%,
+          87.85495% 26.16978%,
+          88.47124% 26.78606%,
+          88.97114% 27.5%,
+          89.33948% 28.2899%,
+          89.56505% 29.13176%,
+          89.64102% 30%,
+          89.64102% 70%,
+          89.56505% 70.86824%,
+          89.33948% 71.7101%,
+          88.97114% 72.5%,
+          88.47124% 73.21394%,
+          87.85495% 73.83022%,
+          87.14102% 74.33013%,
+          52.5% 94.33013%,
+          51.7101% 94.69846%,
+          50.86824% 94.92404%,
+          50% 95%,
+          49.13176% 94.92404%,
+          48.2899% 94.69846%,
+          47.5% 94.33013%,
+          12.85898% 74.33013%,
+          12.14505% 73.83022%,
+          11.52876% 73.21394%,
+          11.02886% 72.5%,
+          10.66052% 71.7101%,
+          10.43495% 70.86824%,
+          10.35898% 70%,
+          10.35898% 30%,
+          10.43495% 29.13176%,
+          10.66052% 28.2899%,
+          11.02886% 27.5%,
+          11.52876% 26.78606%,
+          12.14505% 26.16978%,
+          12.85898% 25.66987%
+        );
+        position: relative;
+        overflow: hidden;
+      }
+      .profile-image-outer {
+        background: $color-white;
+        width: calc(360px / 3);
+        height: calc(360px / 3);
+        clip-path: polygon(
+          47.5% 5.66987%,
+          48.2899% 5.30154%,
+          49.13176% 5.07596%,
+          50% 5%,
+          50.86824% 5.07596%,
+          51.7101% 5.30154%,
+          52.5% 5.66987%,
+          87.14102% 25.66987%,
+          87.85495% 26.16978%,
+          88.47124% 26.78606%,
+          88.97114% 27.5%,
+          89.33948% 28.2899%,
+          89.56505% 29.13176%,
+          89.64102% 30%,
+          89.64102% 70%,
+          89.56505% 70.86824%,
+          89.33948% 71.7101%,
+          88.97114% 72.5%,
+          88.47124% 73.21394%,
+          87.85495% 73.83022%,
+          87.14102% 74.33013%,
+          52.5% 94.33013%,
+          51.7101% 94.69846%,
+          50.86824% 94.92404%,
+          50% 95%,
+          49.13176% 94.92404%,
+          48.2899% 94.69846%,
+          47.5% 94.33013%,
+          12.85898% 74.33013%,
+          12.14505% 73.83022%,
+          11.52876% 73.21394%,
+          11.02886% 72.5%,
+          10.66052% 71.7101%,
+          10.43495% 70.86824%,
+          10.35898% 70%,
+          10.35898% 30%,
+          10.43495% 29.13176%,
+          10.66052% 28.2899%,
+          11.02886% 27.5%,
+          11.52876% 26.78606%,
+          12.14505% 26.16978%,
+          12.85898% 25.66987%
+        );
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .profile-image {
+        background: $color-white;
+        width: calc(330px / 3);
+        height: calc(330px / 3);
+        clip-path: polygon(
+          47.5% 5.66987%,
+          48.2899% 5.30154%,
+          49.13176% 5.07596%,
+          50% 5%,
+          50.86824% 5.07596%,
+          51.7101% 5.30154%,
+          52.5% 5.66987%,
+          87.14102% 25.66987%,
+          87.85495% 26.16978%,
+          88.47124% 26.78606%,
+          88.97114% 27.5%,
+          89.33948% 28.2899%,
+          89.56505% 29.13176%,
+          89.64102% 30%,
+          89.64102% 70%,
+          89.56505% 70.86824%,
+          89.33948% 71.7101%,
+          88.97114% 72.5%,
+          88.47124% 73.21394%,
+          87.85495% 73.83022%,
+          87.14102% 74.33013%,
+          52.5% 94.33013%,
+          51.7101% 94.69846%,
+          50.86824% 94.92404%,
+          50% 95%,
+          49.13176% 94.92404%,
+          48.2899% 94.69846%,
+          47.5% 94.33013%,
+          12.85898% 74.33013%,
+          12.14505% 73.83022%,
+          11.52876% 73.21394%,
+          11.02886% 72.5%,
+          10.66052% 71.7101%,
+          10.43495% 70.86824%,
+          10.35898% 70%,
+          10.35898% 30%,
+          10.43495% 29.13176%,
+          10.66052% 28.2899%,
+          11.02886% 27.5%,
+          11.52876% 26.78606%,
+          12.14505% 26.16978%,
+          12.85898% 25.66987%
+        );
+        position: relative;
+        overflow: hidden;
+      }
+      .profile-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .progress-bar {
+        position: absolute;
+        top: 50%;
+        background: transparent;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(400px / 3);
+        height: calc(400px / 3);
+      }
+      .progress {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+      }
+      .progress .track,
+      .progress .fill {
+        fill: rgba(0, 0, 0, 0);
+        stroke-width: 40;
+        transform: translate(75px, 685px) rotate(-90deg);
+      }
+      .progress .track {
+        stroke: #dfdfdf;
+      }
+      .progress .fill {
+        stroke: url(#gradient);
+        stroke-linecap: round;
+        stroke-dasharray: 2160;
+        stroke-dashoffset: 2160;
+        transition: stroke-dashoffset 1s;
+        stroke-linejoin: round;
+      }
+      .progress .fill {
+        stroke: url(#gradient);
+      }
+    }
+  }
+}
+
+.aboutme {
+  grid-area: info3;
+  font-family: rajdhani;
+  .color-strip {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    background-color: $color-primary;
+    width: 100%;
+    height: 4px;
+  }
+
+  .aboutme-container {
+    height: 280px;
+  }
+  .aboutme-title {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+  }
+  .aboutme-info {
+    padding: 0px 20px;
+    .aboutme-paragraph {
+      padding: 12px 0px 25px 0px;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+  }
+  .aboutme-info-line {
+    display: flex;
+    font-size: 16px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+
+    p:first-of-type {
+      color: grey;
+      font-weight: 700;
+      margin-right: 15px;
+    }
+  }
+}
+
+.hero {
+  grid-area: hero;
+}
