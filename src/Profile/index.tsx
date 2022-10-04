@@ -4,6 +4,8 @@ import AboutMe from "./components/AboutMe";
 import Slider from "./components/Slider";
 import Modal from "../shared/components/Modal";
 import Button from "../shared/components/Button";
+import VideoFeed from "./components/VideoFeed";
+import Galaxy from "../shared/assets/galaxy.jpg";
 
 const Profile = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -13,7 +15,8 @@ const Profile = () => {
       <HeroCard />
       <AboutMe />
       <Slider />
-      <Button text="Click me" onClick={toggle} />
+      <VideoFeed onClick={toggle} />
+
       <Modal onClick={toggle} state={modalOpen}></Modal>
     </div>
   );

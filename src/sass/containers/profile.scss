@@ -9,7 +9,7 @@
 }
 
 .hero-container {
-  width: 1184px;
+  width: 100%;
 
   .hero-background {
     width: 100%;
@@ -372,4 +372,7 @@
 
 .hero {
   grid-area: hero;
+}
+
+@media (max-width: 700px) {
 }

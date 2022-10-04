@@ -6,7 +6,7 @@ const Logo = () => {
       <div className="logo-image-container">
         <LogoSvg />
       </div>
-      <h1>VIKINGER</h1>
+      <h1 className="logo-text">VIKINGER</h1>
     </div>
   );
 };

@@ -8,7 +8,7 @@ export default class Responsive extends Component {
       dots: false,
       infinite: false,
       speed: 500,
-      slidesToShow: 6,
+      slidesToShow: 8,
       slidesToScroll: 4,
       initialSlide: 0,
       responsive: [
@@ -51,43 +51,73 @@ export default class Responsive extends Component {
           <div>
             <h3>
               <h2>Friends</h2>
-              <i className="bi bi-person-square"></i>
+              <i className="bi bi-person"></i>
             </h3>
           </div>
           <div>
             <h3>
               <h2>Groups</h2>
-              <i className="bi bi-people-fill"></i>
+              <i className="bi bi-people"></i>
             </h3>
           </div>
           <div>
             <h3>
-              <h2>Newspaper</h2>
-              <i className="bi bi-newspaper"></i>
+              <h2>Messages</h2>
+              <i className="bi bi-envelope-paper"></i>
             </h3>
           </div>
           <div>
             <h3>
-              <h2>Newspaper</h2>
-              <i className="bi bi-newspaper"></i>
+              <h2>Archive</h2>
+              <i className="bi bi-archive"></i>
             </h3>
           </div>
           <div>
             <h3>
-              <h2>Newspaper</h2>
-              <i className="bi bi-newspaper"></i>
+              <h2>Market</h2>
+              <i className="bi bi-bag"></i>
             </h3>
           </div>
           <div>
             <h3>
-              <h2>Newspaper</h2>
-              <i className="bi bi-newspaper"></i>
+              <h2>Favourites</h2>
+              <i className="bi bi-bookmark-star"></i>
             </h3>
           </div>
           <div>
             <h3>
-              <h2>Newspaper</h2>
-              <i className="bi bi-newspaper"></i>
+              <h2>Photos</h2>
+              <i className="bi bi-camera"></i>
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <h2>Photos</h2>
+              <i className="bi bi-camera"></i>
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <h2>Photos</h2>
+              <i className="bi bi-camera"></i>
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <h2>Photos</h2>
+              <i className="bi bi-camera"></i>
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <h2>Photos</h2>
+              <i className="bi bi-camera"></i>
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <h2>Photos</h2>
+              <i className="bi bi-camera"></i>
             </h3>
           </div>
         </Slider>

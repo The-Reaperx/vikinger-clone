@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
+  z-index: 2;
 }
 
 .logo-container {
@@ -35,9 +35,9 @@
   color: white;
 }
 .side-bar-container {
-  font-size: 30px;
+  font-size: 25px;
   padding: 5px;
-  margin: 10px;
+  margin-left: 15px;
 }
 
 nav {
@@ -72,7 +72,7 @@ nav {
   display: flex;
   height: 30px;
   align-items: center;
-  margin: 10px;
+  margin: 0px 10px;
   background-color: $color-accent;
   border-radius: 10px;
   justify-content: space-between;
@@ -99,24 +99,28 @@ nav {
     color: rgb(201, 194, 194);
   }
 }
-.experience-indicator-info {
-  font-family: Rajdhani;
-  color: white;
-  .progress-bar {
-    progress {
-      accent-color: rgba(114, 209, 6, 0.699);
+.experience-indicator-container {
+  margin-left: 20px;
+  .experience-indicator-info {
+    font-family: Rajdhani;
+    color: white;
+
+    .progress-bar {
+      progress {
+        accent-color: rgba(114, 209, 6, 0.699);
+      }
     }
   }
 }
 
 .actions-menu-container {
-  margin-right: 10px;
+  margin: 0px 20px;
   display: flex;
   .action-menu-group,
   .settings {
+    display: flex;
     .action-item {
-      display: inline-block;
-      margin: 8px;
+      margin-left: 13px;
       font-size: 20px;
       color: $color-accent;
 
@@ -131,4 +135,21 @@ nav {
     border-right: 2px solid $color-accent;
     padding-right: 5px;
   }
+}
+
+@media (max-width: 700px) {
+  .search-bar-container,
+  .experience-indicator-container,
+  .actions-menu-container {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+#root {
+  overflow-x: hidden;
 }

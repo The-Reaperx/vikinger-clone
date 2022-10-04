@@ -1,0 +1,43 @@
+.slider {
+  grid-area: menu;
+  width: 1135px;
+  margin: 30px auto 30px auto;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgb(94 92 154 / 6%);
+
+  h3 {
+    text-align: center;
+    color: $color-accent;
+    font-size: 20px;
+    position: relative;
+    h2 {
+      font-size: 20px;
+      position: absolute;
+      left: 40px;
+      opacity: 0;
+    }
+
+    i,
+    h2 {
+      transition: all 200ms ease-in-out;
+    }
+    &:hover {
+      cursor: pointer;
+      i {
+        color: black;
+        opacity: 0;
+      }
+      h2 {
+        color: $color-accent;
+        opacity: 1;
+      }
+    }
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: $color-primary;
+  }
+}
