@@ -32,9 +32,9 @@ const HeroCard = () => {
               <SocialMedia icon="facebook" color="#4267B2" />
               <SocialMedia icon="telegram" color="#229ED9" />
               <SocialMedia icon="youtube" color="#fd434f" />
-              <SocialMedia icon="twitch" color="#1abcff" />
+              <SocialMedia icon="twitch" color="#4267B2" />
               <SocialMedia icon="instagram" color="#f8468d" />
-              <SocialMedia icon="twitter" color="#4267B2" />
+              <SocialMedia icon="twitter" color="#1abcff" />
               <SocialMedia icon="discord" color="#7289da" />
             </div>
             <div className="hero-buttons">
