@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vikinger-clone/static/css/main.370fb390.css",
-    "main.js": "/vikinger-clone/static/js/main.49bdbdec.js",
+    "main.js": "/vikinger-clone/static/js/main.cc748bae.js",
     "static/media/bootstrap-icons.woff?": "/vikinger-clone/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/thumbnail_2.jpg": "/vikinger-clone/static/media/thumbnail_2.b98169e4b9d762b6b284.jpg",
     "static/media/01.jpg": "/vikinger-clone/static/media/01.d4f0f463df2767b0fbcf.jpg",
@@ -15,10 +15,10 @@
     "static/media/slick.woff": "/vikinger-clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/vikinger-clone/index.html",
     "main.370fb390.css.map": "/vikinger-clone/static/css/main.370fb390.css.map",
-    "main.49bdbdec.js.map": "/vikinger-clone/static/js/main.49bdbdec.js.map"
+    "main.cc748bae.js.map": "/vikinger-clone/static/js/main.cc748bae.js.map"
   },
   "entrypoints": [
     "static/css/main.370fb390.css",
-    "static/js/main.49bdbdec.js"
+    "static/js/main.cc748bae.js"
   ]
 }
