@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Layout>
         <Routes>
-          <Route path="/" element={<Profile />} />
+          <Route path="/vikinger-clone" element={<Profile />} />
           <Route path="newsfeed" element={<Newsfeed />} />
           <Route path="overview" element={<Overview />} />
         </Routes>
