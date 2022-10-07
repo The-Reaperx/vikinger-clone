@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="sidebar-minimised">
-      <Link to="/">
+      <Link to="/vikinger-clone">
         <Avatar imgSrc={Avatarsrc} progress={0.62} />
       </Link>
       <div className="sidebar-menu">

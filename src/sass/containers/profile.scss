@@ -5,24 +5,30 @@
     "menu menu menu"
     "info1 info2 info3";
   grid-template-columns: 1fr 2fr 1fr;
-  width: 1184px;
+  width: calc(100vw*0.867);
+  margin-right:0px;
 }
 
+.hero{
+  .card{
+    width: calc(100vw*0.867);
+  }
+}
 .hero-container {
-  width: 100%;
+  width: calc(100vw*0.867);
 
   .hero-background {
     width: 100%;
     background-image: url(https://odindesignthemes.com/vikinger/img/cover/01.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: calc(100vw*0.2197);
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
   }
 
   .hero-info {
-    height: 126px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -374,5 +380,35 @@
   grid-area: hero;
 }
 
+
 @media (max-width: 700px) {
+  .aboutme{
+    grid-area:info2;
+    margin-left:10px;}
+  .hero-container{
+    margin-left:10px;
+    margin-right:10px;
+  }
+  .video-feed{
+    margin-left: 10px;;
+  }
+}
+@media (max-width: 1160px) {
+  .hero-info{
+    height:400px;
+  }
+  .hero-info{
+    flex-direction:column;
+    
+    .hero-info-left{
+      margin-top:160px;
+   
+    }
+    
+  }
+  .hero-buttons{
+    visibility: hidden;
+  }
+  .layout-content {
+    margin:0 10px;}
 }

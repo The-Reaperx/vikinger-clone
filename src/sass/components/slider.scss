@@ -41,3 +41,10 @@
     color: $color-primary;
   }
 }
+
+@media (max-width: 700px) {
+  .slider{
+    width:400px;
+    margin:30px 60px 30px 60px;
+  }
+  }

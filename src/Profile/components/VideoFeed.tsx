@@ -9,6 +9,7 @@ interface VideoFeedProps {
 }
 const VideoFeed = ({ onClick }: VideoFeedProps) => {
   return (
+    <div className="video-feed">
     <Card>
       <div className="color-strip"></div>
       <div className="feed-container">
@@ -33,6 +34,7 @@ const VideoFeed = ({ onClick }: VideoFeedProps) => {
         />
       </div>
     </Card>
+    </div>
   );
 };
 
