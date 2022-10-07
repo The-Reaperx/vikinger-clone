@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vikinger-clone/static/css/main.370fb390.css",
+    "main.js": "/vikinger-clone/static/js/main.49bdbdec.js",
+    "static/media/bootstrap-icons.woff?": "/vikinger-clone/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/thumbnail_2.jpg": "/vikinger-clone/static/media/thumbnail_2.b98169e4b9d762b6b284.jpg",
+    "static/media/01.jpg": "/vikinger-clone/static/media/01.d4f0f463df2767b0fbcf.jpg",
+    "static/media/bootstrap-icons.woff2?": "/vikinger-clone/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/thumbnail_3.jpg": "/vikinger-clone/static/media/thumbnail_3.f2f007f87a1d8ea0b66a.jpg",
+    "static/media/thumbnail_1.jpg": "/vikinger-clone/static/media/thumbnail_1.367619524aafb30db6e9.jpg",
+    "static/media/logo.svg": "/vikinger-clone/static/media/logo.c8236e2b92ab7dc88333b815fa857afd.svg",
+    "static/media/slick.svg": "/vikinger-clone/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/vikinger-clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/vikinger-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/vikinger-clone/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/vikinger-clone/index.html",
+    "main.370fb390.css.map": "/vikinger-clone/static/css/main.370fb390.css.map",
+    "main.49bdbdec.js.map": "/vikinger-clone/static/js/main.49bdbdec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.370fb390.css",
+    "static/js/main.49bdbdec.js"
+  ]
+}
