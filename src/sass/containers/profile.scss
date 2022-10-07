@@ -37,8 +37,8 @@
     .hero-buttons {
       width: 376px;
       position: absolute;
-      left: 775px;
-      bottom: 115px;
+      left: 65%;
+      bottom: 88%;
       display: flex;
 
       .btn:first-of-type {
@@ -381,34 +381,32 @@
 }
 
 
-@media (max-width: 700px) {
-  .aboutme{
-    grid-area:info2;
-    margin-left:10px;}
-  .hero-container{
-    margin-left:10px;
-    margin-right:10px;
+@media(max-width:1280px){
+  .hero-buttons{
+    visibility: hidden;
   }
-  .video-feed{
-    margin-left: 10px;;
-  }
-}
-@media (max-width: 1160px) {
   .hero-info{
     height:400px;
   }
   .hero-info{
     flex-direction:column;
-    
     .hero-info-left{
       margin-top:160px;
-   
     }
-    
-  }
-  .hero-buttons{
-    visibility: hidden;
   }
   .layout-content {
     margin:0 10px;}
+
+  .aboutme{
+      grid-area:info2;
+      margin-left:10px;
+    min-width: 280px;}
+  .hero-container{
+      margin-left:10px;
+      margin-right:10px;
+    }
+  .video-feed{
+      margin-left: 10px;
+    }
+    
 }
