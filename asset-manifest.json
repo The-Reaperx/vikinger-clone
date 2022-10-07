@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vikinger-clone/static/css/main.370fb390.css",
-    "main.js": "/vikinger-clone/static/js/main.cc748bae.js",
+    "main.css": "/vikinger-clone/static/css/main.e6fea43b.css",
+    "main.js": "/vikinger-clone/static/js/main.e91b3294.js",
     "static/media/bootstrap-icons.woff?": "/vikinger-clone/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/thumbnail_2.jpg": "/vikinger-clone/static/media/thumbnail_2.b98169e4b9d762b6b284.jpg",
     "static/media/01.jpg": "/vikinger-clone/static/media/01.d4f0f463df2767b0fbcf.jpg",
@@ -14,11 +14,11 @@
     "static/media/slick.ttf": "/vikinger-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/vikinger-clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/vikinger-clone/index.html",
-    "main.370fb390.css.map": "/vikinger-clone/static/css/main.370fb390.css.map",
-    "main.cc748bae.js.map": "/vikinger-clone/static/js/main.cc748bae.js.map"
+    "main.e6fea43b.css.map": "/vikinger-clone/static/css/main.e6fea43b.css.map",
+    "main.e91b3294.js.map": "/vikinger-clone/static/js/main.e91b3294.js.map"
   },
   "entrypoints": [
-    "static/css/main.370fb390.css",
-    "static/js/main.cc748bae.js"
+    "static/css/main.e6fea43b.css",
+    "static/js/main.e91b3294.js"
   ]
 }
